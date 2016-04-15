@@ -5,7 +5,7 @@
   font-weight: bold;
   color: white;
   font-family: fantasy;
-  position: relative;;
+  position: relative;
 }
 
 .wrapper > * {
@@ -22,7 +22,7 @@
 }
 
 .main {
-  height: 600px;
+  height: 350px;
   text-align: center;
   background: lightgreen;
 }
@@ -41,10 +41,10 @@
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 20 0px;}
-  .aside-1 { order: 1; margin-top: 5px; margin-bottom: 5px;}
+  .main    { flex: 20 0px; height: 600px; }
+  .aside-1 { flex :5; order: 1; margin-top: 5px; margin-bottom: 5px;}
   .main    { order: 2; margin: 5px;}
-  .aside-2 { order: 3; margin-top: 5px; margin-bottom: 5px;}
+  .aside-2 { flex : 5; order: 3; margin-top: 5px; margin-bottom: 5px;}
   .footer  { order: 4;}
 }
 
