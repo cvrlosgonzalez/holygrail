@@ -2,10 +2,9 @@
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  font-weight: bold;
   color: white;
-  font-family: fantasy;
-  position: relative;
+  font-family: Century Gothic, sans-serif;
+  position: absolute-center;
 }
 
 .wrapper > * {
@@ -14,26 +13,26 @@
 }
 
 .header {
-  background: #FF5733;
+  background: #393939;
 }
 
 .footer {
-  background: #FF5733;
+  background: #393939;
 }
 
 .main {
   height: 350px;
   text-align: center;
-  background: lightgreen;
+  background: #6e6e6e;
 }
 
 .aside-1 {
   text-align: center;
-  background: lightblue;
+  background: #2f4f4f;
 }
 
 .aside-2 {
-  background: lightgrey;
+  background: #2f4f4f;
 }
 
 @media all and (min-width: 600px) {
