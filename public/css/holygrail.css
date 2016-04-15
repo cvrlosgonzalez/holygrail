@@ -1,0 +1,50 @@
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+  font-family: Century Gothic, sans-serif;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 100%;
+}
+
+.header {
+  background: #393939;
+}
+
+.footer {
+  background: #393939;
+}
+
+.main {
+  height: 350px;
+  text-align: center;
+  background: #6e6e6e;
+}
+
+.aside-1 {
+  background: #2f4f4f;
+}
+
+.aside-2 {
+  background: #3B3E53;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 20 0px; height: 600px; }
+  .aside-1 { flex :5; order: 1; margin-top: 5px; margin-bottom: 5px;}
+  .main    { order: 2; margin: 5px;}
+  .aside-2 { flex : 5; order: 3; margin-top: 5px; margin-bottom: 5px;}
+  .footer  { order: 4;}
+}
+
+body {
+  padding-top: .5em;
+}
